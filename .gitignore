@@ -1,0 +1,128 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.bak
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+/build/
+/coverage/
+pubspec-overrides.yaml
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Build & Application Packages (CRITICAL - prevents committing large binaries)
+*.apk
+*.aab
+*.ipa
+*.app
+*.x86_64
+*.exe
+*.msi
+*.dll
+
+# Android build artifacts & secrets
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+.cxx/
+**/captures/
+/android/app/debug
+/android/app/profile
+/android/app/release
+**/android/local.properties
+**/android/key.properties
+**/*.keystore
+**/*.jks
+**/google-services.json
+**/GeneratedPluginRegistrant.java
+
+# iOS & macOS build artifacts & secrets
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+**/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserdatad/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/Flutter/flutter_native_integration.env
+**/ServiceDefinitions.json
+**/GoogleService-Info.plist
+
+# Windows desktop build artifacts
+windows/flutter/ephemeral/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+x64/
+x86/
+*.[Cc]ache/
+!*.[Cc]ache/
+*.ilk
+*.pdb
+*.obj
+*.iobj
+*.ipdb
+
+# Linux desktop build artifacts
+linux/flutter/ephemeral/
+
+# Secrets, Environment & Credentials
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Archives & Backups
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
